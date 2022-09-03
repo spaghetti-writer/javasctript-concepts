@@ -6,7 +6,65 @@
 	<title></title>
 </head>
 <body>
+	<!-- Inicio del disenio -->
+	
+	<h1 id="title" class="title">DOM Document Object model</h1>
 
-	<script type="module" src="index.js"></script>
+	<form>
+		<label for="txt_name">Nombre</label>
+		<input type="text" name="name" id="txt_name">
+	</form>
+
+	<section id='section'>
+		<p class="paragraph">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat.
+			<span>Hola mundo</span>
+		</p>
+		<p class="paragraph">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p class="paragraph">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur.
+		</p>
+	</section>
+
+
+	<!-- Final del disenio -->
+
+	<!-- Las etiquetas cuando se manipulen con el DOM se hace en mayusculas ex H! -->
+
+	<!-- 
+		Al seleccionar un elemento del documento html y escribir $0 puedes acceder
+		a sus propiedades en la consola de js (solo funciona en la consola del navegador)
+		intentarlo en un script devolvera error
+	-->
+
+	<!-- Document Object Model -->
+	<!-- API que se usa atravez de js -->
+	<!-- API Application Programming Interface -->
+	<!-- 
+		Un archivo html se compone de NODOS (es en si un arbol interconectado por nodos)
+		Hay 12 tipos de nodos que conforman un documento html
+		Los 3 mas utilizados para la manipulacion del documento son
+		Element Node (1): Cualquier etiqueta html
+		Text Node (3): El contenido de la etiqueta html (texto, etc)
+		Comment Node (8): Cualquier comentado en HTML
+	-->
+
+	<!-- Es recomendable ponerla al final -->
+	<!-- type: text/javascript no es necesario actualmente -->
+	<script src="index.js"></script>
 </body>
 </html>
